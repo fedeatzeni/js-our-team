@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #e53172;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.container .card{
+   flex-basis: 30%;
+   display: flex;
+   background-color: black;
+   color: white;
+   margin-bottom: 20px;
+
+}
+
+.card img {
+    max-width: 100px;
+}
+
+.card .info {
+    padding: 5px;
+}
+
+.info div {
+    margin-bottom: 15px;
+}
+
+.blue {
+    color: #74b0bd;
+}
